@@ -1,0 +1,26 @@
+.admin-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+  }
+  
+  .table-header {
+    background-color: lightgray;
+  }
+
+  .addUser {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+.searchUser {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    bottom: 270px;
+
+}
+  

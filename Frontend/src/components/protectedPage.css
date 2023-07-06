@@ -1,0 +1,69 @@
+
+.headerParentDiv {
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100vw;
+    height: 6%;
+    z-index: 1;
+}
+
+.headerChildDiv{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sony-logo{
+    background-image: url('https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/clientlibs-jetstream/resources/assets/fonts/sony_logo.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 15px;
+    width: 80px;
+}
+
+ .headerChildDiv2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: aqua;
+    width: 100vw;
+    height: 110px;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    margin-top: 45px;
+}
+
+.navHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+    color: #999;
+    font-family: "Shared-Nav-Icons";
+    cursor: pointer;
+}
+
+.navTag {
+    margin-left: 20px;
+}
+
+#navbarScroll {
+    margin-top: 45px;
+}
+
+.name{
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    margin-top: 5px;
+    color: #999;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+

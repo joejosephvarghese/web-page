@@ -1,0 +1,49 @@
+
+.mediaBlock {
+    position: relative;
+  }
+  
+  .banneerLogo {
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    transform: translate(-100%, -50%);
+    z-index: 1;
+    width: 30%;
+  }
+
+  .banneerHeading{
+    position: absolute;
+    top: 62%;
+    left: 29%;
+    transform: translate(-100%, -50%);
+    z-index: 1;
+    width: 30%;
+    color: aliceblue;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .banneerHeading h2{
+    margin-top: 60px;
+  }
+
+  .banneerHeading p{
+    margin-top: 30px;
+    margin-left: 117px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+  }
+
+  .bannerImage {
+    width: 100%;
+  }
+
+  .bannerButton{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 150px;
+  }
+  
